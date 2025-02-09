@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# 🎓 eduLearning (https://team-edu.web.app)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![eduLearning](https://img.shields.io/badge/LMS-Django%20%7C%20React-blue.svg) 
+![GitHub license](https://img.shields.io/github/license/MeetDOD/Learning-Management-System-LMS-Frontend-)  
 
-## Available Scripts
+A feature-rich **Learning Management System (LMS)** built with **Django REST Framework** and **React.js**, designed as a **Udemy-like platform**. Students can come and Enroll in various courses of their wish with wide range of Domains. Students **Admin Panel**, Teachers Admin Panel, Website Admin Panel, **Student Testimonials**, Various Categories and other functionality included.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 Features  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ **Student & Teacher Roles** - Separate dashboards for students & instructors  
+✅ **Course Management** - Create, update, and enroll in courses  
+✅ **Assignments & Study Materials** - Teachers can upload materials and assignments  
+✅ **One-to-One Chat** - Real-time messaging between students and teachers  
+✅ **User Authentication** - Secure login/signup with JWT  
+✅ **Responsive UI** - Built with Bootstrap for a seamless experience  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠 Tech Stack  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🖥 Frontend  
+- ⚛️ **React.js** - Component-based UI  
+- 🎨 **Bootstrap** - Responsive and modern design  
 
-### `npm run build`
+### 🔧 Backend  
+- 🐍 **Django REST Framework** - Powerful API backend  
+- 🗄 **PostgreSQL** - Database for storing user & course data  
+- 🔑 **JWT Authentication** - Secure user login  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Installation & Setup  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Clone the repository
+for frontend
+git clone https://github.com/MeetDOD/Learning-Management-System-LMS-Frontend-.git
 
-### `npm run eject`
+for backend
+git clone https://github.com/MeetDOD/Learning-Management-System-LMS-Backend.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Navigate to the backend folder
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Install dependencies
+pip install -r requirements.txt
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Run migrations
+python manage.py migrate
 
-## Learn More
+# Start the Django server
+python manage.py runserver
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Navigate to the frontend folder
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Install dependencies
+npm install
 
-### Code Splitting
+# Start the React development server
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🎥 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![image](https://github.com/user-attachments/assets/b6682ed2-2a2a-4a75-b243-a7e9061e4709)
 
-### Making a Progressive Web App
+![image](https://github.com/user-attachments/assets/9e861510-af18-42f4-a5e4-75e65978aa8d)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![image](https://github.com/user-attachments/assets/34a9874e-09ea-49bf-a7dd-529499888133)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📜 License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**This project is MIT Licensed.**
